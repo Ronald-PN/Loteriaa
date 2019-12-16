@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <script type="text/javascript" src="js/javascript.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="flexboxgrid.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <div class="container">
+        <br>
+        <div class="row ">
+            <div class="col-xs-2">
+                <img src="img/loteria.png" width="213" height="73">
+            </div>
+            <div class="col-xs-8">
+                <div class="numeros">
+                <h2>Sistema de Loteria... <b class="rojo">Debe introducir un numero en cada casilla</b></h2>
+               
+            </div>
+            </div>
+           
+        
+        </div>
+       
+        <div class="row center-xs">
+            <div class="col-xs-7">
+                <div class="numeros2">
+
+                <label for="">Primero</label>
+                <input required type="number" name="" id="numero1" min="00" max="99"><br><br>
+
+                <label for="">Segundo</label>
+                <input required type="number" name="" id="numero2" min="00" max="99"><br><br>
+
+                <label for="">Tercero</label>
+                <input required type="number" name="" id="numero3" min="00" max="100">
+                <h4 class="sorteo">  Los numeros ganadores seran proyectados mas abajo</h4>
+
+            </div>
+        </div>
+    </div>
+<div class="row center-xs">
+            <div class="col-lg-8">
+                
+                <h1 class="acertados">Numeros acertados</h1>
+            </div>
+        </div>
+    
+                <div class="row center-xs">
+                    <div class="col-xs-4" >
+                       <div class="ganadores"><br>
+                <label for="">PRIMER PREMIO</label>
+                <p id="primer">
+                    <p><br><br>
+
+                        <label for="">SEGUNDO PREMIO</label><br>
+                        <p id="segundo">
+                            <p><br><br>
+
+                                <label for="">TERCER PREMIO</label><br>
+                                <p id="tercero">
+                                    <p><br>
+
+                                        <input class="Jugar" onclick="loteria()" type="button" value="Jugar"><br>
+                                        <br>
+                                        <h1 id="mensaje"></h1>
+                                    </div>
+                                    </div>
+                                    <div class="col-xs-4">
+                                        
+                                           <h3 class="comentario"> Si no aciertas no te desanimes, intenta nuevamente<br><br><br><br><br><br><br>
+                                           En caso de acertar, puedes consultar tu premio por nuestra pasina web
+                                               www.loria_nacional.gob.do</h3>
+                                           
+                                           <br><br>
+                                        </div>
+
+                                    </div>
+                                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
